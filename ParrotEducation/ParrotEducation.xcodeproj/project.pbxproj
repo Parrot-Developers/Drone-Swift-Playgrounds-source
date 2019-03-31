@@ -6,6 +6,21 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		375CEEFC2250C140000B2AA4 /* install in iCloud Drive */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 375CEEFD2250C140000B2AA4 /* Build configuration list for PBXAggregateTarget "install in iCloud Drive" */;
+			buildPhases = (
+				375CEF022250C148000B2AA4 /* ShellScript */,
+			);
+			dependencies = (
+				375CEF012250C146000B2AA4 /* PBXTargetDependency */,
+			);
+			name = "install in iCloud Drive";
+			productName = "install in iCloud Drive";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		3749C45F224F737F00E9DACD /* Assessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F26224F57EE00E1D0F3 /* Assessor.swift */; };
 		3749C460224F737F00E9DACD /* Canon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F25224F57EE00E1D0F3 /* Canon.swift */; };
@@ -57,6 +72,13 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
+		375CEF002250C146000B2AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E2A7ADD204F611300F4E17A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E086DBF2051C5A7004D8D25;
+			remoteInfo = PlaygroundBook;
+		};
 		5EA2E3CF2056F36100416A35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E2A7ADD204F611300F4E17A /* Project object */;
@@ -391,6 +413,9 @@
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				TargetAttributes = {
+					375CEEFC2250C140000B2AA4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					5E086DBF2051C5A7004D8D25 = {
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 1020;
@@ -405,7 +430,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5E2A7AE0204F611300F4E17A /* Build configuration list for PBXProject "PlaygroundBook" */;
+			buildConfigurationList = 5E2A7AE0204F611300F4E17A /* Build configuration list for PBXProject "ParrotEducation" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -421,6 +446,7 @@
 				5E086DBF2051C5A7004D8D25 /* PlaygroundBook */,
 				5EF2F9AA2054BBF300191409 /* Book_Sources */,
 				5EA2E3BC2056F35A00416A35 /* LiveViewTestApp */,
+				375CEEFC2250C140000B2AA4 /* install in iCloud Drive */,
 			);
 		};
 /* End PBXProject section */
@@ -448,6 +474,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		375CEF022250C148000B2AA4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -r \"$TARGET_BUILD_DIR/$PLAYGROUND_BOOK_FILE_NAME.playgroundbook\"  ~/Library/Mobile\\ Documents/iCloud\\~com\\~apple\\~Playgrounds/Documents/\n";
+			showEnvVarsInLog = 0;
+		};
 		5EA2E3DD2056FB2900416A35 /* Embed Playground Book PublicResources & PrivateResources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -505,6 +549,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		375CEF012250C146000B2AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E086DBF2051C5A7004D8D25 /* PlaygroundBook */;
+			targetProxy = 375CEF002250C146000B2AA4 /* PBXContainerItemProxy */;
+		};
 		5EA2E3D02056F36100416A35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5E086DBF2051C5A7004D8D25 /* PlaygroundBook */;
@@ -550,6 +599,24 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		375CEEFE2250C140000B2AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHY4A2RUV8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		375CEEFF2250C140000B2AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHY4A2RUV8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5E086DC32051C5A7004D8D25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */;
@@ -780,6 +847,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		375CEEFD2250C140000B2AA4 /* Build configuration list for PBXAggregateTarget "install in iCloud Drive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375CEEFE2250C140000B2AA4 /* Debug */,
+				375CEEFF2250C140000B2AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5E086DC52051C5A7004D8D25 /* Build configuration list for PBXNativeTarget "PlaygroundBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -789,7 +865,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E2A7AE0204F611300F4E17A /* Build configuration list for PBXProject "PlaygroundBook" */ = {
+		5E2A7AE0204F611300F4E17A /* Build configuration list for PBXProject "ParrotEducation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E2A7AE1204F611300F4E17A /* Debug */,
