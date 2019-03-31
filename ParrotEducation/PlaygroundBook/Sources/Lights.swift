@@ -29,7 +29,16 @@
 //
 //  Created by Nicolas CHRISTE, <nicolas.christe@parrot.com>
 
-import PlaygroundSupport
+import Foundation
 
-let page = PlaygroundPage.current
-page.liveView = MainViewController.makeViewController(color: .green)
+/// Light accessory state
+public enum LightState {
+    /// lights off
+    case off
+    /// lights blinking
+    case blink
+    /// lights oscillating
+    case oscillate
+    /// light on, parameter is the light level
+    case on(UInt)
+}

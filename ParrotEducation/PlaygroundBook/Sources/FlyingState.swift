@@ -29,7 +29,18 @@
 //
 //  Created by Nicolas CHRISTE, <nicolas.christe@parrot.com>
 
-import PlaygroundSupport
+import Foundation
 
-let page = PlaygroundPage.current
-page.liveView = MainViewController.makeViewController(color: .green)
+/// Drone current flying state */
+public enum FlyingState: Int {
+    /// drone is landed
+    case landed
+    /// drone is taking off
+    case takingOff
+    /// drone is flying
+    case flying
+    /// drone is landing
+    case landing
+    /// drone stops flying due to emergency condition
+    case emergency
+}

@@ -29,7 +29,24 @@
 //
 //  Created by Nicolas CHRISTE, <nicolas.christe@parrot.com>
 
-import PlaygroundSupport
+import Foundation
 
-let page = PlaygroundPage.current
-page.liveView = MainViewController.makeViewController(color: .green)
+/// Grabber accessory
+public class Grabber {
+
+    private weak var drone: Drone?
+
+    internal init(drone: Drone) {
+        self.drone = drone
+    }
+
+    /// Open the grabber
+    public func open() {
+        drone?.openGrabber()
+    }
+
+    /// Close the grabber
+    public func close() {
+        drone?.closeGrabber()
+    }
+}

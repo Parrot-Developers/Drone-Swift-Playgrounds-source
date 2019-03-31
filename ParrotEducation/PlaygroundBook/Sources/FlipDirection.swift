@@ -29,7 +29,14 @@
 //
 //  Created by Nicolas CHRISTE, <nicolas.christe@parrot.com>
 
-import PlaygroundSupport
-
-let page = PlaygroundPage.current
-page.liveView = MainViewController.makeViewController(color: .green)
+/// Direction for the `flip()` command
+public enum FlipDirection: Int {
+    /// Flip forward
+    case front = 0
+    /// Flip backward
+    case back = 1
+    /// Flip on the right
+    case right = 2
+    /// Flip on the left
+    case left = 3
+}

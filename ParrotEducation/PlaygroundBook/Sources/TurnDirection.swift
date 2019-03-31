@@ -29,7 +29,10 @@
 //
 //  Created by Nicolas CHRISTE, <nicolas.christe@parrot.com>
 
-import PlaygroundSupport
-
-let page = PlaygroundPage.current
-page.liveView = MainViewController.makeViewController(color: .green)
+/// Direction for the `turn()` command
+public enum TurnDirection {
+    /// turn counterclockwise
+    case left
+    /// turn clockwise
+    case right
+}

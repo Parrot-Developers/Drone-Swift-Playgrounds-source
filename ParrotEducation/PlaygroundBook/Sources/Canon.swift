@@ -29,7 +29,19 @@
 //
 //  Created by Nicolas CHRISTE, <nicolas.christe@parrot.com>
 
-import PlaygroundSupport
+import Foundation
 
-let page = PlaygroundPage.current
-page.liveView = MainViewController.makeViewController(color: .green)
+/// Mambo Cannon accessory
+public class Cannon {
+
+    private weak var drone: Drone?
+
+    internal init(drone: Drone) {
+        self.drone = drone
+    }
+
+    /// Fire the cannon
+    public func fire() {
+        drone?.fireCannon()
+    }
+}

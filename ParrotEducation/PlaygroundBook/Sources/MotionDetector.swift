@@ -1,4 +1,4 @@
-// Copyright (C) 2016-2017 Parrot SA
+// Copyright (C) 2017 Parrot SA
 //
 //    Redistribution and use in source and binary forms, with or without
 //    modification, are permitted provided that the following conditions
@@ -29,7 +29,60 @@
 //
 //  Created by Nicolas CHRISTE, <nicolas.christe@parrot.com>
 
-import PlaygroundSupport
+import Foundation
 
-let page = PlaygroundPage.current
-page.liveView = MainViewController.makeViewController(color: .green)
+/// Events trigger when on iPad motion. See `waitNextMotionEvent()`
+public enum MotionEvent: Int {
+    /// iPad is hold flat
+    case flat
+    /// iPad is tilted forward
+    case tiltForward
+    /// iPad is tilted backward
+    case tiltBackward
+    /// iPad is tilted on the left
+    case tiltLeft
+    /// iPad is tilted on the right
+    case tiltRight
+    /// iPad is shaked up
+    case shakeUp
+    /// iPad is shaked down
+    case shakeDown
+}
+
+/// Detect iPad motions.
+/// This is the playground page side of MotionTracker
+public class MotionDetector {
+
+    fileprivate let droneViewProxy: DroneViewProxy
+    fileprivate var state = MotionEvent.flat
+    fileprivate var event: MotionEvent?
+    private var started = false
+
+    /// Constructor
+    init(droneViewProxy: DroneViewProxy) {
+        self.droneViewProxy = droneViewProxy
+        self.droneViewProxy.motionTrackerDelegate = self
+    }
+
+    /// Waits until the drone is connected
+    public func waitNextMotionEvent() -> MotionEvent {
+        if !started {
+            started = true
+            droneViewProxy.sendCommand(.startMotionTracker)
+        }
+        while event != state {
+            droneViewProxy.receiveEvents(wait: 0.01)
+            if let event = event {
+                state = event
+            }
+        }
+        self.event = nil
+        return state
+    }
+}
+
+extension MotionDetector: DroneViewProxyMotionTrackerDelegate {
+    func droneViewProxyDidReceiveMotionEvent(_ event: MotionEvent) {
+        self.event = event
+    }
+}

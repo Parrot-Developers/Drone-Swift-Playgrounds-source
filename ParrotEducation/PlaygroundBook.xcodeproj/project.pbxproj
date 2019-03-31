@@ -7,9 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */; };
+		3749C45F224F737F00E9DACD /* Assessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F26224F57EE00E1D0F3 /* Assessor.swift */; };
+		3749C460224F737F00E9DACD /* Canon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F25224F57EE00E1D0F3 /* Canon.swift */; };
+		3749C461224F737F00E9DACD /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F2E224F57EF00E1D0F3 /* DataStorage.swift */; };
+		3749C462224F737F00E9DACD /* Drone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F31224F57EF00E1D0F3 /* Drone.swift */; };
+		3749C463224F737F00E9DACD /* DroneBle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F2D224F57EF00E1D0F3 /* DroneBle.swift */; };
+		3749C464224F737F00E9DACD /* DroneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F2C224F57EF00E1D0F3 /* DroneController.swift */; };
+		3749C465224F737F00E9DACD /* DroneProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F27224F57EE00E1D0F3 /* DroneProtocol.swift */; };
+		3749C466224F737F00E9DACD /* DroneViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F23224F57EE00E1D0F3 /* DroneViewControllerBase.swift */; };
+		3749C467224F737F00E9DACD /* DroneViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F1F224F57EE00E1D0F3 /* DroneViewProxy.swift */; };
+		3749C468224F737F00E9DACD /* FlipDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F29224F57EE00E1D0F3 /* FlipDirection.swift */; };
+		3749C469224F737F00E9DACD /* FlyingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F20224F57EE00E1D0F3 /* FlyingState.swift */; };
+		3749C46A224F737F00E9DACD /* Grabber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F21224F57EE00E1D0F3 /* Grabber.swift */; };
+		3749C46B224F737F00E9DACD /* Lights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F24224F57EE00E1D0F3 /* Lights.swift */; };
+		3749C46C224F737F00E9DACD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F2A224F57EE00E1D0F3 /* MainViewController.swift */; };
+		3749C46D224F737F00E9DACD /* MotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F2F224F57EF00E1D0F3 /* MotionDetector.swift */; };
+		3749C46E224F737F00E9DACD /* MotionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F28224F57EE00E1D0F3 /* MotionTracker.swift */; };
+		3749C46F224F737F00E9DACD /* MoveDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F2B224F57EF00E1D0F3 /* MoveDirection.swift */; };
+		3749C470224F737F00E9DACD /* MoveParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F30224F57EF00E1D0F3 /* MoveParams.swift */; };
+		3749C471224F737F00E9DACD /* TurnDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F22224F57EE00E1D0F3 /* TurnDirection.swift */; };
+		3749C472224F737F00E9DACD /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F1E224F57DE00E1D0F3 /* Api.swift */; };
+		3749C4742250B25A00E9DACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3749C4732250B25A00E9DACD /* Assets.xcassets */; };
+		3749C4772250B26600E9DACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3749C4752250B26600E9DACD /* Main.storyboard */; };
+		375CEEF22250BC26000B2AA4 /* BookIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 375CEEF12250BC26000B2AA4 /* BookIcon.png */; };
 		5E086DD32051E3A3004D8D25 /* Manifest.plist in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5E086DCF2051DF0F004D8D25 /* Manifest.plist */; };
-		5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */; };
 		5EA2E3C02056F35A00416A35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E3BF2056F35A00416A35 /* AppDelegate.swift */; };
 		5EA2E3CA2056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA2E3C82056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard */; };
 		5EA2E3D42056F36800416A35 /* libBook_Sources.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF2F9AB2054BBF300191409 /* libBook_Sources.a */; };
@@ -17,7 +38,6 @@
 		5EA2E3DB2056F8D100416A35 /* PlaygroundSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA2E3D72056F88700416A35 /* PlaygroundSupport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5EBEC2F0205B399300975D3F /* LiveViewHost.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBEC2EF205B396500975D3F /* LiveViewHost.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EF2F97E2054B6E400191409 /* ManifestPlist.strings */; };
-		5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2F9AD2054BBF300191409 /* LiveViewController.swift */; };
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
 		5EF2F9B82054E6FE00191409 /* Sources in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9A52054BBB200191409 /* Sources */; };
 /* End PBXBuildFile section */
@@ -90,15 +110,36 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundBook.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
+		3749C4732250B25A00E9DACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3749C4762250B26600E9DACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		374E0F1E224F57DE00E1D0F3 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		374E0F1F224F57EE00E1D0F3 /* DroneViewProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneViewProxy.swift; sourceTree = "<group>"; };
+		374E0F20224F57EE00E1D0F3 /* FlyingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyingState.swift; sourceTree = "<group>"; };
+		374E0F21224F57EE00E1D0F3 /* Grabber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grabber.swift; sourceTree = "<group>"; };
+		374E0F22224F57EE00E1D0F3 /* TurnDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnDirection.swift; sourceTree = "<group>"; };
+		374E0F23224F57EE00E1D0F3 /* DroneViewControllerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneViewControllerBase.swift; sourceTree = "<group>"; };
+		374E0F24224F57EE00E1D0F3 /* Lights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lights.swift; sourceTree = "<group>"; };
+		374E0F25224F57EE00E1D0F3 /* Canon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canon.swift; sourceTree = "<group>"; };
+		374E0F26224F57EE00E1D0F3 /* Assessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assessor.swift; sourceTree = "<group>"; };
+		374E0F27224F57EE00E1D0F3 /* DroneProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneProtocol.swift; sourceTree = "<group>"; };
+		374E0F28224F57EE00E1D0F3 /* MotionTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionTracker.swift; sourceTree = "<group>"; };
+		374E0F29224F57EE00E1D0F3 /* FlipDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipDirection.swift; sourceTree = "<group>"; };
+		374E0F2A224F57EE00E1D0F3 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		374E0F2B224F57EF00E1D0F3 /* MoveDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveDirection.swift; sourceTree = "<group>"; };
+		374E0F2C224F57EF00E1D0F3 /* DroneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneController.swift; sourceTree = "<group>"; };
+		374E0F2D224F57EF00E1D0F3 /* DroneBle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneBle.swift; sourceTree = "<group>"; };
+		374E0F2E224F57EF00E1D0F3 /* DataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		374E0F2F224F57EF00E1D0F3 /* MotionDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionDetector.swift; sourceTree = "<group>"; };
+		374E0F30224F57EF00E1D0F3 /* MoveParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveParams.swift; sourceTree = "<group>"; };
+		374E0F31224F57EF00E1D0F3 /* Drone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drone.swift; sourceTree = "<group>"; };
+		375CEEF12250BC26000B2AA4 /* BookIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookIcon.png; sourceTree = "<group>"; };
+		5E086DC02051C5A7004D8D25 /* Parrot Education.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parrot Education.playgroundbook"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
-		5E086DCD2051DDB8004D8D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveView.storyboard; sourceTree = "<group>"; };
 		5E086DCF2051DF0F004D8D25 /* Manifest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Manifest.plist; sourceTree = "<group>"; };
 		5E0E37522065981C008FA4BE /* BuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E0E37542065A065008FA4BE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5E1004BE208E7F6E00BCFE70 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		5E2A7AE6204F630600F4E17A /* BaseBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BaseBuildSettings.xcconfig; sourceTree = "<group>"; };
-		5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewSupport.swift; sourceTree = "<group>"; };
 		5EA2E3BD2056F35A00416A35 /* LiveViewTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveViewTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA2E3BF2056F35A00416A35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EA2E3C92056F35B00416A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveViewTestAppLaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -109,7 +150,6 @@
 		5EF2F97D2054B6E400191409 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ManifestPlist.strings; sourceTree = "<group>"; };
 		5EF2F9A52054BBB200191409 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
 		5EF2F9AB2054BBF300191409 /* libBook_Sources.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBook_Sources.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EF2F9AD2054BBF300191409 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,7 +175,7 @@
 		5E086DA4204F706E004D8D25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */,
+				5E086DC02051C5A7004D8D25 /* Parrot Education.playgroundbook */,
 				5EF2F9AB2054BBF300191409 /* libBook_Sources.a */,
 				5EA2E3BD2056F35A00416A35 /* LiveViewTestApp.app */,
 			);
@@ -241,8 +281,10 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				375CEEF12250BC26000B2AA4 /* BookIcon.png */,
+				3749C4752250B26600E9DACD /* Main.storyboard */,
+				3749C4732250B25A00E9DACD /* Assets.xcassets */,
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
-				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
 			);
 			path = PrivateResources;
 			sourceTree = "<group>";
@@ -250,8 +292,26 @@
 		5EF2F9A22054BB3E00191409 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5EF2F9AD2054BBF300191409 /* LiveViewController.swift */,
-				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
+				374E0F26224F57EE00E1D0F3 /* Assessor.swift */,
+				374E0F25224F57EE00E1D0F3 /* Canon.swift */,
+				374E0F2E224F57EF00E1D0F3 /* DataStorage.swift */,
+				374E0F31224F57EF00E1D0F3 /* Drone.swift */,
+				374E0F2D224F57EF00E1D0F3 /* DroneBle.swift */,
+				374E0F2C224F57EF00E1D0F3 /* DroneController.swift */,
+				374E0F27224F57EE00E1D0F3 /* DroneProtocol.swift */,
+				374E0F23224F57EE00E1D0F3 /* DroneViewControllerBase.swift */,
+				374E0F1F224F57EE00E1D0F3 /* DroneViewProxy.swift */,
+				374E0F29224F57EE00E1D0F3 /* FlipDirection.swift */,
+				374E0F20224F57EE00E1D0F3 /* FlyingState.swift */,
+				374E0F21224F57EE00E1D0F3 /* Grabber.swift */,
+				374E0F24224F57EE00E1D0F3 /* Lights.swift */,
+				374E0F2A224F57EE00E1D0F3 /* MainViewController.swift */,
+				374E0F2F224F57EF00E1D0F3 /* MotionDetector.swift */,
+				374E0F28224F57EE00E1D0F3 /* MotionTracker.swift */,
+				374E0F2B224F57EF00E1D0F3 /* MoveDirection.swift */,
+				374E0F30224F57EF00E1D0F3 /* MoveParams.swift */,
+				374E0F22224F57EE00E1D0F3 /* TurnDirection.swift */,
+				374E0F1E224F57DE00E1D0F3 /* Api.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -282,7 +342,7 @@
 			);
 			name = PlaygroundBook;
 			productName = PlaygroundBook;
-			productReference = 5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */;
+			productReference = 5E086DC02051C5A7004D8D25 /* Parrot Education.playgroundbook */;
 			productType = "com.apple.product-type.bundle";
 		};
 		5EA2E3BC2056F35A00416A35 /* LiveViewTestApp */ = {
@@ -333,6 +393,7 @@
 				TargetAttributes = {
 					5E086DBF2051C5A7004D8D25 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1020;
 					};
 					5EA2E3BC2056F35A00416A35 = {
 						CreatedOnToolsVersion = 9.3;
@@ -370,7 +431,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
-				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
+				3749C4742250B25A00E9DACD /* Assets.xcassets in Resources */,
+				3749C4772250B26600E9DACD /* Main.storyboard in Resources */,
+				375CEEF22250BC26000B2AA4 /* BookIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,8 +479,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
-				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
+				3749C462224F737F00E9DACD /* Drone.swift in Sources */,
+				3749C463224F737F00E9DACD /* DroneBle.swift in Sources */,
+				3749C470224F737F00E9DACD /* MoveParams.swift in Sources */,
+				3749C465224F737F00E9DACD /* DroneProtocol.swift in Sources */,
+				3749C469224F737F00E9DACD /* FlyingState.swift in Sources */,
+				3749C460224F737F00E9DACD /* Canon.swift in Sources */,
+				3749C464224F737F00E9DACD /* DroneController.swift in Sources */,
+				3749C46C224F737F00E9DACD /* MainViewController.swift in Sources */,
+				3749C46E224F737F00E9DACD /* MotionTracker.swift in Sources */,
+				3749C468224F737F00E9DACD /* FlipDirection.swift in Sources */,
+				3749C466224F737F00E9DACD /* DroneViewControllerBase.swift in Sources */,
+				3749C467224F737F00E9DACD /* DroneViewProxy.swift in Sources */,
+				3749C46D224F737F00E9DACD /* MotionDetector.swift in Sources */,
+				3749C461224F737F00E9DACD /* DataStorage.swift in Sources */,
+				3749C472224F737F00E9DACD /* Api.swift in Sources */,
+				3749C46F224F737F00E9DACD /* MoveDirection.swift in Sources */,
+				3749C46B224F737F00E9DACD /* Lights.swift in Sources */,
+				3749C471224F737F00E9DACD /* TurnDirection.swift in Sources */,
+				3749C45F224F737F00E9DACD /* Assessor.swift in Sources */,
+				3749C46A224F737F00E9DACD /* Grabber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,12 +523,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */ = {
+		3749C4752250B26600E9DACD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5E086DCD2051DDB8004D8D25 /* Base */,
+				3749C4762250B26600E9DACD /* Base */,
 			);
-			name = LiveView.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		5EA2E3C82056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard */ = {
@@ -473,13 +554,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.0;
 				GCC_DYNAMIC_NO_PIC = NO;
 				INSTALL_PATH = /;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PLAYGROUND_BOOK_CONTENT_IDENTIFIER)";
 				PRODUCT_NAME = "$(PLAYGROUND_BOOK_FILE_NAME)";
 				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -487,9 +575,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.0;
 				INSTALL_PATH = /;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PLAYGROUND_BOOK_CONTENT_IDENTIFIER)";
 				PRODUCT_NAME = "$(PLAYGROUND_BOOK_FILE_NAME)";
 				SKIP_INSTALL = NO;
