@@ -6,7 +6,7 @@
             "thumbnailURL": "../../Content/ParrotEducation/zh_CN_lproj/StoreBanner_2x.png",
             "overviewSubtitle": "\u5b66\u4e60\u7528 Swift \u7f16\u7a0b\u5e76\u64cd\u63a7 Parrot \u65e0\u4eba\u673a\uff01",
             "description": "\u5728\u8fd9\u4e2a Playground \u4e2d\uff0c\u4f60\u5c06\u5b66\u4e60\u5982\u4f55\u4f7f\u7528 Swift \u4ee3\u7801\u7f16\u7a0b\u5e76\u9a7e\u9a76 Parrot \u65e0\u4eba\u673a\uff01 \u4f60\u5c06\u638c\u63e1\u5982\u4f55\u8d77\u98de\u3001\u964d\u843d\u3001\u671d\u5404\u4e2a\u65b9\u5411\u98de\u884c\u3001\u8868\u6f14\u7a7a\u4e2d\u7279\u6280\uff0c\u751a\u81f3\u662f\u63a7\u5236\u914d\u4ef6\u3002\n\n\u652f\u6301\u7684\u65e0\u4eba\u673a\u578b\u53f7\u5305\u62ec\uff1aRolling Spider\u3001Airborne \u548c Mambo.",
-            "publishedDate": "2019-04-08T12:00:00+00:00",
+            "publishedDate": "2019-04-07T12:00:00+00:00",
             "url": "https://github.com/Parrot-Developers/Drone-Swift-Playgrounds-source/releases/download/v1.2/ParrotEducation.playgroundbook.zip",
             "additionalInformation": [
                 {
@@ -20,7 +20,7 @@
                 {
                     "type": "date",
                     "name": "\u53d1\u5e03\uff1a",
-                    "value": "2019-04-08T12:00:00+00:00"
+                    "value": "2019-04-07T12:00:00+00:00"
                 },
                 {
                     "name": "\u8bed\u8a00\uff1a",
@@ -29,7 +29,7 @@
             ],
             "title": "Parrot Education",
             "contentVersion": "1.0",
-            "lastUpdatedDate": "2019-04-08T12:00:00+00:00",
+            "lastUpdatedDate": "2019-04-07T12:00:00+00:00",
             "contentIdentifier": "com.parroteducation.playground",
             "sha512": "993f5a8252e5be09c4270a87c593d7800200919baa6b0be3c9349868de0b4ae167460a50c15e3f0477ad05b170f84bc27c5fe070a5209eee600c59698b0fd012"
         },
@@ -39,7 +39,7 @@
             "thumbnailURL": "../../Content/ParrotTemplate/zh_CN_lproj/StoreBanner_2x.png",
             "overviewSubtitle": "\u5b66\u4e60\u7528 Swift \u7f16\u7a0b\u5e76\u64cd\u63a7 Parrot \u65e0\u4eba\u673a\uff01",
             "description": "\u6b64\u6a21\u677f\u662f\u4f60\u81ea\u5df1\u65e0\u4eba\u673a\u9879\u76ee\u7684\u8d77\u70b9\u3002 \u4f60\u53ef\u4ee5\u4f7f\u7528\u5728 Parrot Education Playground \u4e2d\u5b66\u5230\u7684\u6240\u6709\u547d\u4ee4\uff0c\u7f16\u7a0b\u5e76\u64cd\u63a7\u4f60\u7684 Parrot \u65e0\u4eba\u673a\u3002\n\n\u652f\u6301\u7684\u65e0\u4eba\u673a\u578b\u53f7\u5305\u62ec\uff1aRolling Spider\u3001Airborne \u548c Mambo.",
-            "publishedDate": "2019-04-08T12:00:00+00:00",
+            "publishedDate": "2019-04-07T12:00:00+00:00",
             "url": "https://github.com/Parrot-Developers/Drone-Swift-Playgrounds-source/releases/download/v1.2/ParrotTemplate.playgroundbook.zip",
             "additionalInformation": [
                 {
@@ -53,7 +53,7 @@
                 {
                     "type": "date",
                     "name": "\u53d1\u5e03\uff1a",
-                    "value": "2019-04-08T12:00:00+00:00"
+                    "value": "2019-04-07T12:00:00+00:00"
                 },
                 {
                     "name": "\u8bed\u8a00\uff1a",
@@ -62,7 +62,7 @@
             ],
             "title": "Parrot \u6a21\u677f",
             "contentVersion": "1.0",
-            "lastUpdatedDate": "2019-04-08T12:00:00+00:00",
+            "lastUpdatedDate": "2019-04-07T12:00:00+00:00",
             "contentIdentifier": "com.parroteducation.playground.template",
             "sha512": "6b66698f60353ba999b2d28d2a2b4222a6f9a7940798a6bd89cc39465c48118f94efe50d21aa87dcf5a621bd710c586a3aa413cf0e2ca1ebf099c9f346b1a94b"
         }

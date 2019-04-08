@@ -6,7 +6,7 @@
             "thumbnailURL": "../../Content/ParrotEducation/de_lproj/StoreBanner_2x.png",
             "overviewSubtitle": "Lerne mit Swift eine Parrot-Drohne zu programmieren und zu fliegen!",
             "description": "In diesem Playground lernst du, wie du eine Parrot-Drohne mit Hilfe der Macht des Swift-Code programmieren und fliegen kannst! Du lernst abzuheben, zu landen, sie in alle Richtungen zu steuern, akrobatische Figuren zu fliegen und sogar das Zubeh\u00f6r anzusteuern.\n\nZu den unterst\u00fctzten Drohnen-Modellen geh\u00f6ren: Rolling Spider, Airborne und Mambo.",
-            "publishedDate": "2019-04-08T12:00:00+00:00",
+            "publishedDate": "2019-04-07T12:00:00+00:00",
             "url": "https://github.com/Parrot-Developers/Drone-Swift-Playgrounds-source/releases/download/v1.2/ParrotEducation.playgroundbook.zip",
             "additionalInformation": [
                 {
@@ -20,7 +20,7 @@
                 {
                     "type": "date",
                     "name": "Ver\u00f6ffentlicht:",
-                    "value": "2019-04-08T12:00:00+00:00"
+                    "value": "2019-04-07T12:00:00+00:00"
                 },
                 {
                     "name": "Sprachen:",
@@ -29,7 +29,7 @@
             ],
             "title": "Parrot Education",
             "contentVersion": "1.0",
-            "lastUpdatedDate": "2019-04-08T12:00:00+00:00",
+            "lastUpdatedDate": "2019-04-07T12:00:00+00:00",
             "contentIdentifier": "com.parroteducation.playground",
             "sha512": "993f5a8252e5be09c4270a87c593d7800200919baa6b0be3c9349868de0b4ae167460a50c15e3f0477ad05b170f84bc27c5fe070a5209eee600c59698b0fd012"
         },
@@ -39,7 +39,7 @@
             "thumbnailURL": "../../Content/ParrotTemplate/de_lproj/StoreBanner_2x.png",
             "overviewSubtitle": "Lerne mit Swift eine Parrot-Drohne zu programmieren und zu fliegen!",
             "description": "Diese Vorlage ist der Ausgangspunkt f\u00fcr alle Drohnenprojekte. Du kannst alle Befehle verwenden, die du im Parrot Education-Playground gelernt hast, um deine Parrot-Drohne zu programmieren und zu steuern. Zu den unterst\u00fctzten Drohnen-Modellen geh\u00f6ren: Rolling\n\nSpider, Airborne und Mambo.",
-            "publishedDate": "2019-04-08T12:00:00+00:00",
+            "publishedDate": "2019-04-07T12:00:00+00:00",
             "url": "https://github.com/Parrot-Developers/Drone-Swift-Playgrounds-source/releases/download/v1.2/ParrotTemplate.playgroundbook.zip",
             "additionalInformation": [
                 {
@@ -53,7 +53,7 @@
                 {
                     "type": "date",
                     "name": "Ver\u00f6ffentlicht:",
-                    "value": "2019-04-08T12:00:00+00:00"
+                    "value": "2019-04-07T12:00:00+00:00"
                 },
                 {
                     "name": "Sprachen:",
@@ -62,7 +62,7 @@
             ],
             "title": "Parrot-Vorlage",
             "contentVersion": "1.0",
-            "lastUpdatedDate": "2019-04-08T12:00:00+00:00",
+            "lastUpdatedDate": "2019-04-07T12:00:00+00:00",
             "contentIdentifier": "com.parroteducation.playground.template",
             "sha512": "6b66698f60353ba999b2d28d2a2b4222a6f9a7940798a6bd89cc39465c48118f94efe50d21aa87dcf5a621bd710c586a3aa413cf0e2ca1ebf099c9f346b1a94b"
         }
