@@ -1,0 +1,75 @@
+{
+    "documents": [
+        {
+            "previewImageURLs": [],
+            "bannerImageURL": "../../Content/ParrotEducation/fr_lproj/DetailsBanner_2x.png",
+            "thumbnailURL": "../../Content/ParrotEducation/fr_lproj/StoreBanner_2x.png",
+            "overviewSubtitle": "Apprends \u00e0 coder et \u00e0 piloter un drone Parrot avec Swift\u00a0!",
+            "description": "Dans ce playground, tu apprendras \u00e0 programmer et \u00e0 piloter ton drone Parrot en faisant appel \u00e0 la puissance du code Swift ! Tu d\u00e9couvriras comment d\u00e9coller, atterrir, voler dans toutes les directions, effectuer des figures acrobatiques et m\u00eame \u00e0 contr\u00f4ler des accessoires.\n\nMod\u00e8les de drone pris en charge\u00a0: Rolling Spider, Airborne et Mambo.",
+            "publishedDate": "2019-04-08T12:00:00+00:00",
+            "url": "https://github.com/Parrot-Developers/Drone-Swift-Playgrounds-source/releases/download/v1.2/ParrotEducation.playgroundbook.zip",
+            "additionalInformation": [
+                {
+                    "name": "\u00c9diteur\u00a0:",
+                    "value": "Parrot\u00a0Education"
+                },
+                {
+                    "name": "Version\u00a0:",
+                    "value": "1.2"
+                },
+                {
+                    "type": "date",
+                    "name": "Sortie\u00a0:",
+                    "value": "2019-04-08T12:00:00+00:00"
+                },
+                {
+                    "name": "Langues\u00a0:",
+                    "value": "Anglais, allemand, fran\u00e7ais, japonais, chinois simplifi\u00e9 et espagnol d\u2019Am\u00e9rique latine."
+                }
+            ],
+            "title": "Parrot\u00a0Education",
+            "contentVersion": "1.0",
+            "lastUpdatedDate": "2019-04-08T12:00:00+00:00",
+            "contentIdentifier": "com.parroteducation.playground",
+            "sha512": "993f5a8252e5be09c4270a87c593d7800200919baa6b0be3c9349868de0b4ae167460a50c15e3f0477ad05b170f84bc27c5fe070a5209eee600c59698b0fd012"
+        },
+        {
+            "previewImageURLs": [],
+            "bannerImageURL": "../../Content/ParrotTemplate/fr_lproj/DetailsBanner_2x.png",
+            "thumbnailURL": "../../Content/ParrotTemplate/fr_lproj/StoreBanner_2x.png",
+            "overviewSubtitle": "Apprends \u00e0 coder et \u00e0 piloter un drone Parrot avec Swift\u00a0!",
+            "description": "Ce mod\u00e8le est le point de d\u00e9part de ton projet. Tu pourras te servir de toutes les commandes que tu as apprises pendant le playground Parrot Education pour programmer et piloter ton drone Parrot.\n\nMod\u00e8les de drone pris en charge\u00a0: Rolling Spider, Airborne et Mambo.",
+            "publishedDate": "2019-04-08T12:00:00+00:00",
+            "url": "https://github.com/Parrot-Developers/Drone-Swift-Playgrounds-source/releases/download/v1.2/ParrotTemplate.playgroundbook.zip",
+            "additionalInformation": [
+                {
+                    "name": "\u00c9diteur\u00a0:",
+                    "value": "Parrot\u00a0Education"
+                },
+                {
+                    "name": "Version\u00a0:",
+                    "value": "1.2"
+                },
+                {
+                    "type": "date",
+                    "name": "Sortie\u00a0:",
+                    "value": "2019-04-08T12:00:00+00:00"
+                },
+                {
+                    "name": "Langues\u00a0:",
+                    "value": "Anglais, allemand, fran\u00e7ais, japonais, chinois simplifi\u00e9 et espagnol d\u2019Am\u00e9rique latine."
+                }
+            ],
+            "title": "Mod\u00e8le de Parrot",
+            "contentVersion": "1.0",
+            "lastUpdatedDate": "2019-04-08T12:00:00+00:00",
+            "contentIdentifier": "com.parroteducation.playground.template",
+            "sha512": "6b66698f60353ba999b2d28d2a2b4222a6f9a7940798a6bd89cc39465c48118f94efe50d21aa87dcf5a621bd710c586a3aa413cf0e2ca1ebf099c9f346b1a94b"
+        }
+    ],
+    "publisherName": "Parrot Education",
+    "title": "Parrot Education",
+    "formatVersion": "1.2",
+    "feedIdentifier": "com.parroteducation",
+    "contactURL": "mailto:education@parrot.com"
+}
