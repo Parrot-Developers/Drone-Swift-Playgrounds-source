@@ -4,11 +4,11 @@
 <dict>
 	<key>Name</key>
 	<string>Name</string>
-	<key>TemplatePageFilename</key>
-	<string>01.playgroundpage</string>
-	<key>InitialUserPages</key>
-	<array>
-		<string>01.playgroundpage</string>
-	</array>
+	<key>LiveViewMode</key>
+	<string>VisibleByDefault</string>
+	<key>LiveViewEdgeToEdge</key>
+	<true/>
+	<key>PlaygroundLoggingMode</key>
+	<string>Off</string>
 </dict>
 </plist>
