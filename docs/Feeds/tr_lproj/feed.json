@@ -28,7 +28,7 @@
                 }
             ],
             "title": "Parrot Education",
-            "contentVersion": "1.0",
+            "contentVersion": "1.2",
             "lastUpdatedDate": "2019-04-07T12:00:00+00:00",
             "contentIdentifier": "com.parroteducation.playground",
             "sha512": "993f5a8252e5be09c4270a87c593d7800200919baa6b0be3c9349868de0b4ae167460a50c15e3f0477ad05b170f84bc27c5fe070a5209eee600c59698b0fd012"
@@ -61,7 +61,7 @@
                 }
             ],
             "title": "Parrot Template",
-            "contentVersion": "1.0",
+            "contentVersion": "1.2",
             "lastUpdatedDate": "2019-04-07T12:00:00+00:00",
             "contentIdentifier": "com.parroteducation.playground.template",
             "sha512": "6b66698f60353ba999b2d28d2a2b4222a6f9a7940798a6bd89cc39465c48118f94efe50d21aa87dcf5a621bd710c586a3aa413cf0e2ca1ebf099c9f346b1a94b"
