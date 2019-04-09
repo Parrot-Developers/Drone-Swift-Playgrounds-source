@@ -69,7 +69,7 @@
     ],
     "publisherName": "Parrot Education",
     "title": "Parrot Education",
-    "formatVersion": "1.2",
+    "formatVersion": "1.0",
     "feedIdentifier": "com.parroteducation",
     "contactURL": "mailto:education@parrot.com"
 }
