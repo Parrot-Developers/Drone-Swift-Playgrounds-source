@@ -22,6 +22,20 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		02D07FBE225D437600D974CE /* zh_TW.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 02D07FB0225D437400D974CE /* zh_TW.lproj */; };
+		02D07FBF225D437600D974CE /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 02D07FB1225D437400D974CE /* ja.lproj */; };
+		02D07FC0225D437600D974CE /* th.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 02D07FB2225D437400D974CE /* th.lproj */; };
+		02D07FC1225D437600D974CE /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 02D07FB3225D437400D974CE /* tr.lproj */; };
+		02D07FC2225D437600D974CE /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 02D07FB4225D437400D974CE /* fr.lproj */; };
+		02D07FC3225D437600D974CE /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 02D07FB5225D437500D974CE /* en.lproj */; };
+		02D07FC4225D437600D974CE /* zh_CN.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 02D07FB6225D437500D974CE /* zh_CN.lproj */; };
+		02D07FC5225D437600D974CE /* es_419.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 02D07FB7225D437500D974CE /* es_419.lproj */; };
+		02D07FC6225D437600D974CE /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 02D07FB8225D437500D974CE /* nl.lproj */; };
+		02D07FC7225D437600D974CE /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 02D07FB9225D437500D974CE /* sv.lproj */; };
+		02D07FC8225D437600D974CE /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 02D07FBA225D437600D974CE /* de.lproj */; };
+		02D07FC9225D437600D974CE /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 02D07FBB225D437600D974CE /* ko.lproj */; };
+		02D07FCA225D437600D974CE /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 02D07FBC225D437600D974CE /* es.lproj */; };
+		02D07FCB225D437600D974CE /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 02D07FBD225D437600D974CE /* pt.lproj */; };
 		3749C45F224F737F00E9DACD /* Assessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F26224F57EE00E1D0F3 /* Assessor.swift */; };
 		3749C460224F737F00E9DACD /* Canon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F25224F57EE00E1D0F3 /* Canon.swift */; };
 		3749C461224F737F00E9DACD /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E0F2E224F57EF00E1D0F3 /* DataStorage.swift */; };
@@ -52,7 +66,6 @@
 		5EA2E3DA2056F8D100416A35 /* PlaygroundBluetooth.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA2E3D82056F88700416A35 /* PlaygroundBluetooth.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5EA2E3DB2056F8D100416A35 /* PlaygroundSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA2E3D72056F88700416A35 /* PlaygroundSupport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5EBEC2F0205B399300975D3F /* LiveViewHost.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBEC2EF205B396500975D3F /* LiveViewHost.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EF2F97E2054B6E400191409 /* ManifestPlist.strings */; };
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
 		5EF2F9B82054E6FE00191409 /* Sources in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9A52054BBB200191409 /* Sources */; };
 /* End PBXBuildFile section */
@@ -132,6 +145,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		02D07FB0225D437400D974CE /* zh_TW.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = zh_TW.lproj; sourceTree = "<group>"; };
+		02D07FB1225D437400D974CE /* ja.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ja.lproj; sourceTree = "<group>"; };
+		02D07FB2225D437400D974CE /* th.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = th.lproj; sourceTree = "<group>"; };
+		02D07FB3225D437400D974CE /* tr.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tr.lproj; sourceTree = "<group>"; };
+		02D07FB4225D437400D974CE /* fr.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fr.lproj; sourceTree = "<group>"; };
+		02D07FB5225D437500D974CE /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en.lproj; path = "../../../../../../Downloads/Parrot Education 3.playgroundbook/Contents/PrivateResources/en.lproj"; sourceTree = "<group>"; };
+		02D07FB6225D437500D974CE /* zh_CN.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = zh_CN.lproj; sourceTree = "<group>"; };
+		02D07FB7225D437500D974CE /* es_419.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = es_419.lproj; sourceTree = "<group>"; };
+		02D07FB8225D437500D974CE /* nl.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = nl.lproj; sourceTree = "<group>"; };
+		02D07FB9225D437500D974CE /* sv.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sv.lproj; sourceTree = "<group>"; };
+		02D07FBA225D437600D974CE /* de.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = de.lproj; sourceTree = "<group>"; };
+		02D07FBB225D437600D974CE /* ko.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ko.lproj; sourceTree = "<group>"; };
+		02D07FBC225D437600D974CE /* es.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = es.lproj; sourceTree = "<group>"; };
+		02D07FBD225D437600D974CE /* pt.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pt.lproj; sourceTree = "<group>"; };
 		3749C4732250B25A00E9DACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3749C4762250B26600E9DACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		374E0F1E224F57DE00E1D0F3 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
@@ -169,7 +196,6 @@
 		5EA2E3D72056F88700416A35 /* PlaygroundSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PlaygroundSupport.framework; sourceTree = PLAYGROUNDS_FRAMEWORKS_DIR; };
 		5EA2E3D82056F88700416A35 /* PlaygroundBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PlaygroundBluetooth.framework; sourceTree = PLAYGROUNDS_FRAMEWORKS_DIR; };
 		5EBEC2EF205B396500975D3F /* LiveViewHost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LiveViewHost.framework; sourceTree = OTHER_FRAMEWORKS_DIR; };
-		5EF2F97D2054B6E400191409 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ManifestPlist.strings; sourceTree = "<group>"; };
 		5EF2F9A52054BBB200191409 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
 		5EF2F9AB2054BBF300191409 /* libBook_Sources.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBook_Sources.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
@@ -303,10 +329,23 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				02D07FBA225D437600D974CE /* de.lproj */,
+				02D07FB5225D437500D974CE /* en.lproj */,
+				02D07FB7225D437500D974CE /* es_419.lproj */,
+				02D07FBC225D437600D974CE /* es.lproj */,
+				02D07FB4225D437400D974CE /* fr.lproj */,
+				02D07FB1225D437400D974CE /* ja.lproj */,
+				02D07FBB225D437600D974CE /* ko.lproj */,
+				02D07FB8225D437500D974CE /* nl.lproj */,
+				02D07FBD225D437600D974CE /* pt.lproj */,
+				02D07FB9225D437500D974CE /* sv.lproj */,
+				02D07FB2225D437400D974CE /* th.lproj */,
+				02D07FB3225D437400D974CE /* tr.lproj */,
+				02D07FB6225D437500D974CE /* zh_CN.lproj */,
+				02D07FB0225D437400D974CE /* zh_TW.lproj */,
 				375CEEF12250BC26000B2AA4 /* BookIcon.png */,
 				3749C4752250B26600E9DACD /* Main.storyboard */,
 				3749C4732250B25A00E9DACD /* Assets.xcassets */,
-				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
 			);
 			path = PrivateResources;
 			sourceTree = "<group>";
@@ -456,9 +495,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				3749C4742250B25A00E9DACD /* Assets.xcassets in Resources */,
+				02D07FC7225D437600D974CE /* sv.lproj in Resources */,
+				02D07FBE225D437600D974CE /* zh_TW.lproj in Resources */,
+				02D07FC4225D437600D974CE /* zh_CN.lproj in Resources */,
+				02D07FC1225D437600D974CE /* tr.lproj in Resources */,
 				3749C4772250B26600E9DACD /* Main.storyboard in Resources */,
+				02D07FCB225D437600D974CE /* pt.lproj in Resources */,
+				02D07FC9225D437600D974CE /* ko.lproj in Resources */,
+				02D07FBF225D437600D974CE /* ja.lproj in Resources */,
+				02D07FC6225D437600D974CE /* nl.lproj in Resources */,
+				02D07FC0225D437600D974CE /* th.lproj in Resources */,
+				02D07FC2225D437600D974CE /* fr.lproj in Resources */,
+				02D07FC3225D437600D974CE /* en.lproj in Resources */,
+				02D07FC5225D437600D974CE /* es_419.lproj in Resources */,
+				02D07FC8225D437600D974CE /* de.lproj in Resources */,
+				02D07FCA225D437600D974CE /* es.lproj in Resources */,
 				375CEEF22250BC26000B2AA4 /* BookIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,14 +638,6 @@
 				5EA2E3C92056F35B00416A35 /* Base */,
 			);
 			name = LiveViewTestAppLaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		5EF2F97E2054B6E400191409 /* ManifestPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EF2F97D2054B6E400191409 /* en */,
-			);
-			name = ManifestPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

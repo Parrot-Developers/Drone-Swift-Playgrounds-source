@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Swift</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Appleが開発したプログラミング言語。iPhone、iPad、Mac、Apple Watch、Apple TV向けのAppやアプリケーションを作るために使われます。</string>
+				<key>Title</key>
+				<string>Swift</string>
+			</dict>
+		</dict>
+		<key>argument</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>関数の動作を変えるために関数に指定する入力値。たとえば、`wait(3)`という関数呼び出しでは、`3`という引数で、待ち時間を指定しています。</string>
+				<key>Title</key>
+				<string>引数</string>
+			</dict>
+		</dict>
+		<key>command</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>アプリケーションに特定の操作を実行することを命令するためのコード。
+</string>
+				<key>Title</key>
+				<string>コマンド</string>
+			</dict>
+		</dict>
+		<key>conditional</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>指定した条件に当てはまるときにだけ実行されるコード。たとえば、`if`文や`while`ループ内のコードは、指定した条件が`true`（真）の場合または`true`（真）の間だけ実行されます。</string>
+				<key>Title</key>
+				<string>条件分岐</string>
+			</dict>
+		</dict>
+		<key>drone</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>無人で飛行する航空機（UAV）の一般的な呼び方。</string>
+				<key>Title</key>
+				<string>ドローン</string>
+			</dict>
+		</dict>
+		<key>for loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>特定の回数だけ繰り返し実行されるコードブロック。</string>
+				<key>Title</key>
+				<string>forループ</string>
+			</dict>
+		</dict>
+		<key>function</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>必要なときにすばやく実行できるように、一連のコマンドに名前を付けたもの。</string>
+				<key>Title</key>
+				<string>関数</string>
+			</dict>
+		</dict>
+		<key>gaz</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string> ドローンの高度（垂直速度）を表すドローン用語。</string>
+				<key>Title</key>
+				<string>ガズ</string>
+			</dict>
+		</dict>
+		<key>if block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`if`文に含まれる最初のコードブロック。`if`文の条件が`true`（真）の場合に実行されます。</string>
+				<key>Title</key>
+				<string>ifブロック</string>
+			</dict>
+		</dict>
+		<key>if statement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>1つ以上の条件によってコードを実行するかどうかを決めるためのコード構造。`if`文内の最初のコードブロックを、`if`ブロックといいます。`if`文には、追加の条件を調べるための`else if`ブロックや、`else`ブロックが含まれることもあります。</string>
+				<key>Title</key>
+				<string>if文</string>
+			</dict>
+		</dict>
+		<key>loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>特定の回数だけ繰り返し実行されるコードブロック（`for`ループなど）、または、条件が当てはまる間は繰り返し実行されるコードブロック（`while`ループなど）。</string>
+				<key>Title</key>
+				<string>ループ</string>
+			</dict>
+		</dict>
+		<key>parameter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>関数の定義で使われる、関数に指定する入力値の名前。たとえば、`move(direction: MoveDirection)`では、`direction`（方向）が、MoveDirection型の値を受け取るパラメータになります。</string>
+				<key>Title</key>
+				<string>パラメータ</string>
+			</dict>
+		</dict>
+		<key>pitch</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string> ドローンの前後の傾きを表すドローン用語。</string>
+				<key>Title</key>
+				<string>ピッチ</string>
+			</dict>
+		</dict>
+		<key>roll</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string> ドローンの左右の傾きを表すドローン用語。</string>
+				<key>Title</key>
+				<string>ロール</string>
+			</dict>
+		</dict>
+		<key>variable</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>変更できる値を保存するための、名前の付いた入れ物。</string>
+				<key>Title</key>
+				<string>変数</string>
+			</dict>
+		</dict>
+		<key>while loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>指定した条件が`true`（真）になる間は繰り返し実行されるコードブロック。条件が`false`（偽）に変わると、ループの実行は終了します。</string>
+				<key>Title</key>
+				<string>whileループ</string>
+			</dict>
+		</dict>
+		<key>yaw</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string> ドローンの左右の回転（角速度）を表すドローン用語。</string>
+				<key>Title</key>
+				<string>ヨー</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

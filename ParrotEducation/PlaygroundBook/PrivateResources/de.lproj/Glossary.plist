@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Swift</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Programmiersprache von Apple, die zum Schreiben von Apps für iPhone, iPad, Mac, Apple Watch und Apple TV verwendet wird. </string>
+				<key>Title</key>
+				<string>Swift</string>
+			</dict>
+		</dict>
+		<key>argument</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ein Eingabewert, der einer Funktion übergeben wird, um ihr Verhalten anzupassen. In der Funktion `wait(3)` ist zum Beispiel `3` ein Argument, das angibt, wie lange die Wartezeit ist.</string>
+				<key>Title</key>
+				<string>Argument</string>
+			</dict>
+		</dict>
+		<key>command</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Code, der ein Programm auffordert, eine bestimmte Aktion auszuführen. 
+</string>
+				<key>Title</key>
+				<string>Befehl</string>
+			</dict>
+		</dict>
+		<key>conditional</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Code, der nur ausgeführt wird, wenn bestimmte Bedingungen zutreffen. So enthalten z. B. `if`-Anweisungen und `while`-Schleifen bedingte Anweisungen, die nur ausgeführt werden, wenn oder solange die Bedingung `true` ist. </string>
+				<key>Title</key>
+				<string>Bedingt</string>
+			</dict>
+		</dict>
+		<key>drone</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ein unbemanntes Luftfahrzeug (UAV=unmanned aerial vehicle), auch als Drohne bekannt, ist ein Fluggerät ohne menschlichen Piloten an Board.</string>
+				<key>Title</key>
+				<string>Drohne</string>
+			</dict>
+		</dict>
+		<key>for loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ein wiederholender Codeblock, der mehrmals ausgeführt wird. </string>
+				<key>Title</key>
+				<string>for-Schleife</string>
+			</dict>
+		</dict>
+		<key>function</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Eine benannte Reihe von Befehlen, die bei Bedarf jederzeit ausgeführt werden können.</string>
+				<key>Title</key>
+				<string>Funktion</string>
+			</dict>
+		</dict>
+		<key>gaz</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string> Bei Fluggeräten steht der Begriff für die vertikale Geschwindigkeit der Drohne.</string>
+				<key>Title</key>
+				<string>Gas</string>
+			</dict>
+		</dict>
+		<key>if block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Der erste Codeblock in einer `if`-Anweisung. Der `if`-Block wird ausgeführt, wenn die Bedingung in der `if`-Anweisung `true` ist. </string>
+				<key>Title</key>
+				<string>if-Block</string>
+			</dict>
+		</dict>
+		<key>if statement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Eine Codestruktur, die verwendet wird, um Code auszuführen, der auf dem Wert von einem oder mehreren Bedingungen basiert. Der erste Codeblock in einer `if`-Anweisung ist ein `if`-Block. Eine `if`-Anweisung kann unter Umständen auch andere Blöcke enthalten, die zusätzliche Überprüfungen enthalten, z. B. ein `else`-Block und ein `else if`-Block.</string>
+				<key>Title</key>
+				<string>if-Anweisung</string>
+			</dict>
+		</dict>
+		<key>loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ein wiederholender Codeblock, der mehrmals ausgeführt wird (z. B. eine `for`-Schleife) oder bis eine Bedingung erfüllt ist (z. B. eine `while`-Schleife).</string>
+				<key>Title</key>
+				<string>Schleife</string>
+			</dict>
+		</dict>
+		<key>parameter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Der Name eines Eingabewerts einer Funktion, der in der Definition der Funktion verwendet wird. Zum Beispiel ist `direction` in `move(direction: MoveDirection)` ein Parameter der einen Wert des Typs `MoveDirection` annimmt.</string>
+				<key>Title</key>
+				<string>Parameter</string>
+			</dict>
+		</dict>
+		<key>pitch</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string> Bei Fluggeräten steht der Begriff für die Neigung der Drohne nach vorne bzw. hinten.</string>
+				<key>Title</key>
+				<string>Nicken</string>
+			</dict>
+		</dict>
+		<key>roll</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string> Bei Fluggeräten steht der Begriff für die Neigung der Drohne nach links bzw. rechts.</string>
+				<key>Title</key>
+				<string>Rollen</string>
+			</dict>
+		</dict>
+		<key>variable</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ein benannter Container, der einen veränderbaren Wert enthält. </string>
+				<key>Title</key>
+				<string>Variable</string>
+			</dict>
+		</dict>
+		<key>while loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ein Codeblock, der solange ausgeführt wird, wie die vorgegebene Bedingung `true` ist. Sobald sich die Bedingung auf `false` ändert, wird die Schleife gestoppt. </string>
+				<key>Title</key>
+				<string>while-Schleife</string>
+			</dict>
+		</dict>
+		<key>yaw</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string> Bei Fluggeräten steht der Begriff für die Winkelgeschwindigkeit der Drohne.</string>
+				<key>Title</key>
+				<string>Gieren</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

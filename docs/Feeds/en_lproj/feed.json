@@ -28,6 +28,7 @@
                 }
             ],
             "title": "Parrot Education",
+            "difficultyLevel": "intermediate",
             "contentVersion": "1.2",
             "lastUpdatedDate": "2019-04-07T12:00:00+00:00",
             "contentIdentifier": "com.parroteducation.playground",
@@ -61,6 +62,7 @@
                 }
             ],
             "title": "Parrot Template",
+            "difficultyLevel": "intermediate",
             "contentVersion": "1.2",
             "lastUpdatedDate": "2019-04-07T12:00:00+00:00",
             "contentIdentifier": "com.parroteducation.playground.template",
